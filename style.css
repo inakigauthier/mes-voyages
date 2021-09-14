@@ -35,7 +35,7 @@ a:hover{
 .container{
 background-color:#7068FF;
 width: 900px;
-margin: 8px auto;
+margin: 20px auto;
 padding: 40px;
 box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
 border-radius: 6px;
@@ -95,7 +95,7 @@ color: greenyellow;
 }
 
 #high{
-    
+  height: 300PX;  
 }
 
 
@@ -120,4 +120,8 @@ background-color: grey;
     .container {
       width: 300px;
     }
+  }
+  .bouton{
+margin-top: 40px;
+margin-right: 185px;
   }
