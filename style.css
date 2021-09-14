@@ -95,13 +95,17 @@ color: greenyellow;
 }
 
 #high{
-  height: 300PX;  
+  height: 350px;  
 }
 
 
 #footer{
 background-color: grey;
 }
+.bouton{
+  margin-top: 50px;
+  margin-right: 185px;
+    }
 
 @media (max-width: 960px) {
     /* For a screen < 960px, this CSS will be read */
@@ -121,7 +125,4 @@ background-color: grey;
       width: 300px;
     }
   }
-  .bouton{
-margin-top: 40px;
-margin-right: 185px;
-  }
+  
