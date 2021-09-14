@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+
+
+
+body{
+background-color: #AED1FF;
+color: rgb(30, 30, 30);
+font-size: 20px;
+font-weight: lighter;
+font-family: indie flower;
+}
+
+h1{
+font-family: indie flower;
+font-weight: bold;
+font-size: 42px;
+}
+
+h2{
+font-size: 32x;
+}          
+
+
+a{
+text-decoration: none;
+font-size: 16px;
+font-weight: bold;
+}
+
+a:hover{
+ color: red; }
+
+
+.container{
+background-color:#7068FF;
+width: 900px;
+margin: 8px auto;
+padding: 40px;
+box-shadow: 0 10px 30px rgb(0 0 0 / 10%);
+border-radius: 6px;
+
+}
+
+.btn{
+background-color: green;
+color: white;
+border-radius: 5px;
+padding: 10px;
+border: 2px solid transparent;
+position: absolute;
+margin-bottom: 50px;
+margin-right: 80px;
+
+}
+
+.text-center{
+text-align: center;
+}
+
+#par-1{
+font-size: 24px;
+font-family: indie flower;
+font-weight: 700;
+}
+
+.list{
+list-style: none;
+text-align: left
+}
+
+.list-footer{
+    list-style: none;
+}
+.list-footer li{
+display: inline-block;
+padding: 0px 32px;
+}
+
+#descriptif{
+font-size: 20px;
+font-weight: 700;
+}
+
+#footer a{
+font-size: 32px;
+}
+
+#icon{
+color: yellow;
+}
+
+#icon:hover{
+color: greenyellow;
+}
+
+#high{
+    
+}
+
+
+#footer{
+background-color: grey;
+}
+
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
